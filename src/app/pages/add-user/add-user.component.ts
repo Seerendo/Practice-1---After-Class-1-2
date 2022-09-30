@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-add-user',
-  templateUrl: './add.component.html',
+  templateUrl: './add-user.component.html',
 })
-export class AddComponent {}
+export class AddUserComponent {
+
+}

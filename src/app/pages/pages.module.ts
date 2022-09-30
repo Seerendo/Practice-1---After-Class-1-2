@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { AddComponent } from './add/add.component';
+import { AddUserComponent } from './add-user/add-user.component';
 import { HomeComponent } from './home/home.component';
 import { TableComponent } from './table/table.component';
 
 @NgModule({
-  declarations: [HomeComponent, TableComponent, AddComponent],
+  declarations: [HomeComponent, TableComponent, AddUserComponent],
   exports: [HomeComponent],
   imports: [CommonModule],
 })
-export class AppPages {}
+export class PagesModule {}
