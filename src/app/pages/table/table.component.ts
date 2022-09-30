@@ -6,8 +6,7 @@ import { Users } from '../../interfaces/user.interface';
   templateUrl: './table.component.html',
 })
 export class TableComponent {
-
-   public tables: Users[] = [
+  public tables: Users[] = [
     {
       email: 'a',
       phone: 12345,
