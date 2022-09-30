@@ -1,6 +1,4 @@
-<p>
-table works!
-</p>
+<p>table works!</p>
 
 <table>
   <tr>
@@ -10,8 +8,11 @@ table works!
     <th>Last name</th>
     <th>Age</th>
   </tr>
-  <tr *ngFor="">
-    <td>12</td>
-    <td>12</td>
+  <tr *ngFor="let table of tables">
+    <td>{{ table.email }} i</td>
+    <td>{{ table.phone }}</td>
+    <td>{{ table.first_name }}</td>
+    <td>{{ table.last_name }}</td>
+    <td>{{ table.age }}</td>
   </tr>
 </table>
