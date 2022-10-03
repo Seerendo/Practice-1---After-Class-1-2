@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Users } from '../../interfaces/user.interface';
-import { TableDataService } from '../../services/table-data.service';
 
 @Component({
   selector: 'app-table',
@@ -23,8 +22,4 @@ export class TableComponent {
       age: 1,
     },
   ];
-
-  constructor(private userService: TableDataService) {}
-
-  addUser() {}
 }
