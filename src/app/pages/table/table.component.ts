@@ -25,4 +25,6 @@ export class TableComponent {
   ];
 
   constructor(private userService: TableDataService) {}
+
+  addUser() {}
 }
