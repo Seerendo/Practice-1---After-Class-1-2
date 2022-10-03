@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Users } from '../interfaces/user.interface';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class TableDataService {
   private _table: Users[] = [
     {
@@ -29,7 +31,5 @@ export class TableDataService {
     console.log('Agree!');
   }
 
-  deleteUser():void {
-    
-  }
+  deleteUser(): void {}
 }
